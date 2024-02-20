@@ -1,6 +1,6 @@
 // OrderTable.js
 
-import React, { useState, useEffect } from "react";
+//import React, { useState, useEffect } from "react";
 // Import the refresh icon
 import "./OrderTable.css";
 import download from "./download.png";
@@ -13,16 +13,16 @@ const OrderTable = ({ currentData }) => {
         <img src={download} alt="Refresh" /> Refresh
       </div>
       <table className="order-table">
-        <thead>
-          <tr>
-            <th>Channel</th>
-            <th>TKN</th>
-            <th>Order Date</th>
-            <th>City</th>
-            <th>Customer Name</th>
-            <th>Order Value</th>
-            <th>Status</th>
-            <th>Actions</th>
+        <thead className="thead">
+          <tr className="tr">
+            <th className="th">Channel</th>
+            <th className="th">TKN</th>
+            <th className="th">Order Date</th>
+            <th className="th">City</th>
+            <th className="th">Customer Name</th>
+            <th className="th">Order Value</th>
+            <th className="th">Status</th>
+            <th className="th">Actions</th>
           </tr>
         </thead>
         <tbody className="gap">

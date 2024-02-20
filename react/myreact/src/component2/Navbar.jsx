@@ -2,7 +2,7 @@
 import React from "react";
 import {
   NavLink,
-  BrowserRouter as Router,
+  //BrowserRouter as Router,
   Route,
   Routes,
 } from "react-router-dom";
